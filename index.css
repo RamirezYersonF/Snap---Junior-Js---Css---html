@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    padding-left: 0;
+    color: var(--AlmostBlack);
+}
+body{
+    list-style: none;
+}
+:root{
+    --AlmostWhite: hsl(0, 0%, 98%);
+    --MediumGray: hsl(0, 0%, 41%);
+    --AlmostBlack: hsl(0, 0%, 8%);
+}
+main{
+   margin: 0 20px;
+}
+header{
+   width: 100%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor__desplegable--movil{
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 230px;
+}
+.contenedor__desplegable--movil .iconoCerrar__movil{
+    background-color: beige;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    padding: 20px;
+    margin: 0 0 20px 0;
+}
+.contenedor__desplegable--movil .iconoCerrar__movil img{
+    width: 20px;
+}
+/*CONTENEDOR FEATURES SUBMENU*/
+.contenedor__feautures--movil{
+    display: flex;
+    justify-content: start;
+    padding: 0 20px;
+}
+.contenedor__feautures--movil, .contenedor__company--movil, .contenedor__carrers, .contenedor__about{
+    background-color: beige;
+    margin: 20px 0;
+    width: 100%;
+}
+#features__movil, #company__movil{
+   font-family:'Roboto', sans-serif;
+    padding-right: 20px;
+    font-weight: 500;
+}
+#features__movil .flecha__movil{
+    padding: 2px 5px;
+}
+.subfeatures__movil{
+    padding: 10px 10px 10px 40px;
+}
+.subfeatures__movil{
+    background-color: gray;
+    display: block;
+    padding: 10px 0px 10px 10px
+}
+.subfeatures__movil > li{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 5px;
+    font-weight: 400;
+   
+}
+.subfeatures__movil  img{
+    padding: 0 5px;
+}
+/*CONTENEDOR  COMPANY MENU DESPLEGABLE*/
+.contenedor__company--movil{
+    display: flex;
+    justify-content: start;
+    padding: 0 20px;
+}
+.subcompany__movil > li{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 0 5px 20px;
+    font-weight: 400;
+    display: block;
+}
+#company__movil img{
+    padding: 0 5px;
+}
+/*CONTENEDOR CARRERS*/
+.contenedor__carrers{
+    display: flex;
+    justify-content: start;
+    padding: 0 20px;
+}
+.contenedor__carrers li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--AlmostBlack);
+}
+/*CONTENEDOR ABOUT */
+.contenedor__about{
+    display: flex;
+    justify-content: start;
+    padding: 0px 20px;
+}
+.contenedor__about li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--AlmostBlack);
+}
+/*CONTENEDOR BOTONES MOVIL*/
+.contenedor__registro--movil{
+    background-color: beige;
+    width: 150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor__registro--movil button{
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid var(--MediumGray);
+    font-family: 'Roboto', sans-serif;
+    background: transparent;
+    color: var(--MediumGray);
+    font-weight: 500;
+    cursor: pointer;
+}
+.contenedor__registro--movil button:nth-child(1){
+    background: transparent;
+    border: none;
+    
+}
